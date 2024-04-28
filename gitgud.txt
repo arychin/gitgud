@@ -9,3 +9,6 @@ git config --global core.editor "code --wait"
 git config --global core.autocrlf
 
 something 
+
+// to know current status of saved points / checkpoints
+git log --oneline 
