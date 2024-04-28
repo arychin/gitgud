@@ -12,3 +12,6 @@ something
 
 // to know current status of saved points / checkpoints
 git log --oneline 
+
+// rollback to prev saved point
+git reset --hard HEAD~1   // go back 1 point from head pos  
